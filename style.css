@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: #322E41;
+}
+
+.header__nav{
+    display: flex;  
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 1110PX;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_nav-list{
+    display: flex;
+    list-style: none;
+}
+
+.header-list_link{
+    padding: 23px 14px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+
+.header__nav{
+    align-items: center;
+}
+
+.header-list_link:hover{
+    
+    background-color: #FFFFFF;
+    color: #D47300;
+    transition: all .5s;
+}
+
+.first__section{
+    background-image: url(./img/Nike-bg.jpg);
+    height: 500px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.first__section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fs-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+
+    color: #FFFFFF;
+}
+
+.fs-subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.review .container{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.review{
+    background: #EBEBEB;
+    padding-bottom: 30px;
+}
+
+.review__block--left{
+    width: 480px;
+    width: 540px;
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 6px; 
+}
+
+.review__block--left img {
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.review__content h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+    margin-bottom: 10px;
+}
+
+.review__content p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: gray;
+}
+
+.review__block--right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.review__card {
+    width: 255px;
+    width: 230px;
+    padding: 16px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review__content h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #2C2A2A;
+    margin-bottom: 13px;
+}
+
+.review__content {
+    margin-top: 12px;
+}
+
+.review__block {
+    margin-top: -30px;
+}
+
+.footer {
+    background: #322E41;
+    padding: 37px 0 57px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.footer__form-input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #9B9B9B;
+}
+
+.footer__form-textarea {
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 6px;
+    resize: none;
+    height: 86px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #9B9B9B;
+
+}
+
+.footer__form-btn {
+    background: #544294;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 4px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer__content {
+    display: flex;
+    gap: 68px;
+}
+
+.footer__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__list-item a {
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.footer__list-item a:hover {
+    color: #D57300;
+    transition: .5S;
+}
